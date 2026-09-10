@@ -25,7 +25,7 @@
         <h1> Projet Stack Overflow </h1>
         
         
-        <p> Bienvenue sur le site de visualisation de données réalisé par Clément Faux et otsu  lors d'un projet 
+        <p> Bienvenue sur le site de visualisation de données réalisé dans le cadre d'un projet 
             de 3ème année de BUT Informatique à l'IUT Paul Sabatier de Toulouse.
         </p>
         
@@ -39,15 +39,10 @@
    </main>
     <footer>
         <div id = "footer_left">
-          <p> Projet réalisé par Clément Faux et otsu </p>
+          <p> Projet réalisé dans le cadre d'un projet universitaire </p>
           <p> IUT Paul Sabatier - Toulouse </p>
           <p> 2023-2024 </p>
           
-        </div>
-        <div id = "footer_right">
-          <p> Contact : </p>
-          <a href="https://www.linkedin.com/in/carlpremi"> <img src="./img/LinkedIn_logo_initials.png" alt="linkedin" id="linkedin"> <p>otsu</p> </a>
-          <a href="https://www.linkedin.com/in/clementfaux"><img src="./img/LinkedIn_logo_initials.png" alt="linkedin" id="linkedin"> <p>Clément Faux</p> </a>
         </div>
      </footer>
 </body>
