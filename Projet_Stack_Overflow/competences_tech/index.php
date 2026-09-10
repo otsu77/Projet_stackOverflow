@@ -27,7 +27,6 @@
             
         </ul>
     </header>
-    </header>
     <main>
     <?php
         if ($groupBy === 'PlatformHaveWorkedWith') {
@@ -37,22 +36,13 @@
         }
     ?>
         <div class="filtres">
-            <!-- Filtres pour l'utilisateur -->
             <label for="experience">Entrez le nombre d'années d'expérience :</label>
             <input type="number" id="experience" min="1" max="100" >
-            <!-- <select id="experience">
-                <option value="0">Moins d'1 an</option>
-                <option value="1-2">1-2 ans</option>
-                <option value="3-5">3-5 ans</option>
-                <option value="6-10">6-10 ans</option>
-                <option value="10+">Plus de 10 ans</option>
-            </select> -->
 
             <label for="continent">Sélectionnez le continent :</label>
             <select id="continent">
                 <option value="Europe">Europe</option>
                 <option value="Etats-unis">North America</option>
-                <!-- Ajoutez plus de continents au besoin -->
             </select>
 
             <label for="pays">Sélectionnez le pays :</label>
@@ -62,25 +52,17 @@
             <input type="hidden" id="groupBy" value="<?php echo $groupBy; ?>">
         </div>
 
-        <!-- Graphique -->
         <div id="graphique">
             <canvas id="myChart"></canvas>
         </div>
 
-        <!-- Votre script pour créer le graphique -->
         <script src="script.js"></script>
     </main>
     <footer>
         <div id = "footer_left">
-          <p> Projet réalisé par Clément Faux et otsu </p>
+          <p> Projet universitaire </p>
           <p> IUT Paul Sabatier - Toulouse </p>
           <p> 2023-2024 </p>
-          
-        </div>
-        <div id = "footer_right">
-          <p> Contact : </p>
-          <a href="https://www.linkedin.com/in/carlpremi"> <img src="../img/LinkedIn_logo_initials.png" alt="linkedin" id="linkedin"> <p>otsu</p> </a>
-          <a href="https://www.linkedin.com/in/clementfaux"><img src="../img/LinkedIn_logo_initials.png" alt="linkedin" id="linkedin"> <p>Clément Faux</p> </a>
         </div>
      </footer>
 </body>
