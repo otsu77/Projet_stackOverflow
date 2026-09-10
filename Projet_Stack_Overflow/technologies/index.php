@@ -26,7 +26,6 @@
             
         </ul>
     </header>
-    </header>
     <main>
     <?php
         if ($filter === 'devType') {
@@ -36,7 +35,6 @@
         }
     ?>
         <div class="filtres">
-            <!-- Filtres pour l'utilisateur -->
             <label for="top">Étendue du top : </label>
             <input type="number" id="top" min="1" max="8" value="5">
 
@@ -44,7 +42,6 @@
             <select id="continent">
                 <option value="Europe">Europe</option>
                 <option value="Etats-unis">North America</option>
-                <!-- Ajoutez plus de continents au besoin -->
             </select>
 
             <label for="filter">Sélectionnez 
@@ -55,25 +52,17 @@
             <input type="hidden" id="typeFilter" value="<?php echo $filter; ?>">
         </div>
 
-        <!-- Graphique -->
         <div id="graphique">
             <canvas id="myChart"></canvas>
         </div>
 
-        <!-- Votre script pour créer le graphique -->
         <script src="script.js"></script>
     </main>
     <footer>
         <div id = "footer_left">
-          <p> Projet réalisé par Clément Faux et otsu </p>
+          <p> Projet universitaire </p>
           <p> IUT Paul Sabatier - Toulouse </p>
           <p> 2023-2024 </p>
-          
-        </div>
-        <div id = "footer_right">
-          <p> Contact : </p>
-          <a href="https://www.linkedin.com/in/carlpremi"> <img src="../img/LinkedIn_logo_initials.png" alt="linkedin" id="linkedin"> <p>otsu</p> </a>
-          <a href="https://www.linkedin.com/in/clementfaux"><img src="../img/LinkedIn_logo_initials.png" alt="linkedin" id="linkedin"> <p>Clément Faux</p> </a>
         </div>
      </footer>
 </body>
